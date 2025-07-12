@@ -1,5 +1,7 @@
 # DIO.jl: Fundamental Frequency Estimation in Julia
 
+[![Build Status](https://github.com/dr-Fade/DIO.jl/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/dr-Fade/DIO.jl/actions/workflows/CI.yml?query=branch%3Amaster)
+
 This repository contains an implementation of the DIO algorithm for estimating the fundamental frequency (F0) of speech signals, as described in the article "A Fast and Accurate Fundamental Frequency Estimator" by Ryosuke Daido and Yuji Hisaminato.
 
 ## Features
