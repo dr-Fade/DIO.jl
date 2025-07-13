@@ -1,8 +1,8 @@
-# DIO.jl: Fundamental Frequency Estimation in Julia
+# DIO.jl
 
 [![Build Status](https://github.com/dr-Fade/DIO.jl/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/dr-Fade/DIO.jl/actions/workflows/CI.yml?query=branch%3Amaster)
 
-This repository contains an implementation of the DIO algorithm for estimating the fundamental frequency (F0) of speech signals, as described in the article "A Fast and Accurate Fundamental Frequency Estimator" by Ryosuke Daido and Yuji Hisaminato.
+This repository contains an implementation of the DIO algorithm for estimating the fundamental frequency (F0) of speech signals, as described in the article "A Fast and Accurate Fundamental Frequency Estimator" by Ryosuke Daido and Yuji Hisaminato with additions and improvements from "Adaptation of the WORLD framework for frame-by-frame real-time speech analysis" by Eugene Koshel.
 
 ## Features
 
@@ -49,14 +49,14 @@ $ julia
 > using Pluto
 > Pluto.run(notebook="src/demo.jl")
 ```
-3. A new browser window will open with the 
+3. A new browser window will open with the interactive Pluto notebook.
 
 ## References
 
-The algorithm is based on the paper:
+The algorithm is based on the papers:
 
-Daido, R., et al. (2016). "A Fast and Accurate Fundamental Frequency Estimator." In Proceedings of Interspeech 2016. [Link to Paper](https://www.isca-archive.org/interspeech_2016/daido16_interspeech.pdf)
-
+* R. Daido and Y. Hisaminato, "A fast and accurate fundamental frequency estimator using recursive moving average filters.", in INTERSPEECH, 2016, pp. 2160–2164.
+* Koshel Y. V. "Adaptation of the world framework for frame-by-frame real-time speech analysis", in System technologies. DOI 10.34185/1562-9945-5-148-2023-03, ISSN (print) 1562-9945, ISSN (on-line) 2707-7977. – V. 5 – №148 – 2023 – pp. 21–36
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
